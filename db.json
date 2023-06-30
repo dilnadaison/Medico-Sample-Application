@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "dob": "2022-05-04",
+      "password": "12345",
+      "email": "admin@gmail.com",
+      "address": "Kochi",
+      "role": "Admin"
+    },
+    {
+      "name": "Jees",
+      "email": "jees@gmail.com",
+      "address": "Porthur House,Kunnamkulam",
+      "phone": "9087675648",
+      "password": "12345",
+      "role": "Patient",
+      "id": 2
+    },
+    {
+      "name": "Dr.Ramesh",
+      "email": "ramesh@gmail.com",
+      "address": "Kunnamkulam",
+      "phone": "9876543210",
+      "password": "12345",
+      "role": "Doctor",
+      "id": 3
+    }
+  ],
+  "appointment": [
+    {
+      "id": 1,
+      "date": "12-06-2023",
+      "startTime": "10:30 AM",
+      "endTime": "11:30 AM",
+      "status": "Available"
+    }
+  ]
+}

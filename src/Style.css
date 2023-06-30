@@ -1,0 +1,215 @@
+nav {
+  background-color: darkred;
+  width: 100%;
+  height: 50px;
+  padding-top: 12px;
+}
+.navlink {
+  float: right;
+  text-decoration: none;
+  color: white;
+  font: 1.3em solid;
+}
+.navlink:hover {
+  color: white;
+
+}
+.dropdown {
+  float: right;
+  position: relative;
+  display: inline-block;
+  margin-top: -11px;
+}
+.dropbutton {
+  background-color: darkred;
+}
+.droplink {
+  padding-left: 40px;
+  text-decoration: none;
+  color: black;
+  font: 1.3em solid;
+}
+.home {
+  padding: 188.5px;
+  background-size: cover;
+  background-image: url("https://wallpapertag.com/wallpaper/full/3/1/a/581660-full-size-doctor-wallpaper-2000x1153.jpg");
+}
+.login-form {
+  background-image: linear-gradient(to right, lightpink, lightblue);
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -170px;
+  padding: 3rem;
+  width: 400px;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logininput {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 0px;
+}
+.login {
+  background-image: linear-gradient(to right, #c3c3c3, lightblue);
+  margin-top: 39px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -170px;
+  padding: 3rem;
+  width: 580px;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+input[type="submit"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #01d28e;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+input[type="email"],
+input[type="password"] {
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  font-size: 20;
+}
+.button {
+  margin-top: 20px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #073ef2;
+  border: 1px solid #073ef2;
+  color: #fff;
+  width: 70%;
+  border-radius: 50px;
+  padding: 10px 10px;
+  margin-left: 32px;;
+}
+.title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.labelname {
+  font-size: 15px;
+}
+.cardappointment{
+    width: 35rem;
+    margin:10px;
+    padding: 10px;
+}
+.cards{
+display:flex;
+}
+.tel {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font: 1.3em solid;
+}
+.tel:hover {
+  color: white;
+
+}
+.appointment{
+  padding: 299.5px;
+  background-size: cover;
+  background-image: url("https://getwallpapers.com/wallpaper/full/2/8/5/7336.jpg");
+}
+.para{
+  margin-left: -205px;
+  margin-top: -229px;
+
+}
+.viewtable{
+  background-color: white;
+  border-color: bisque;
+  width:750px;
+ 
+}
+.table {
+  background-image: linear-gradient(to right, lightpink, lightblue);
+margin-top: -256px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: -170px;
+padding: 3rem;
+width: 800px;
+color: black;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 30px;
+}
+.scheduleform {
+  background-image: linear-gradient(to right,lightblue, lightpink);
+  padding: 3rem;
+  width: 500px;
+  color: black;
+  margin-top: -50px;
+margin-left: auto;
+margin-right: auto;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.labelname {
+  font-size: 15px;
+}
+.doctorhome{
+  background-image: url("https://wallpapercave.com/wp/wp2655079.jpg");
+  padding: 299px;
+  background-size: "cover";
+}
+.doctor{
+  background-image: url("https://www.victoriastreetmedicalgroup.com.au/wp-content/uploads/shutterstock_292534811.jpg");
+  padding: 135px;
+  background-size: "cover";
+  margin-left: -100px;
+  
+}
+.viewtable{
+  background-color: white;
+  border-color: bisque;
+  width:700px;
+ 
+}
+.form {
+  background-image: linear-gradient(to right, lightpink, lightblue);
+margin-top: 70px;
+margin-left: auto;
+margin-right: auto;
+
+padding: 3rem;
+  width: 800px;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pagination{
+  background-color: transparent;
+  margin-left: 250px;
+  margin-right: auto;
+}
+.patientform {
+  background-image: linear-gradient(to right, lightpink, lightblue);
+margin-top: -70px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 115px;
+padding: 3rem;
+  width: 800px;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
