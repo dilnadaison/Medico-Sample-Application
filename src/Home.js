@@ -3,6 +3,7 @@ import { Card, ListGroup } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 function Home() {
+  console.log(localStorage.getItem("loggedin"));
   return (
     <div className='home'>
     <div className="cards">

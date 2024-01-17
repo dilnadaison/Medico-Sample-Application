@@ -66,7 +66,7 @@ function Login() {
         //<Navigate to="/Homes" refresh="true"/>
         localStorage.setItem("loggedin", true);
         localStorage.setItem("username", userData.name);
-      
+        localStorage.setItem("useremail",userData.email);
         localStorage.setItem("userrole", userData.role);
         console.log(userData.email);
         console.log(userData.name);

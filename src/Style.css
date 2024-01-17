@@ -1,5 +1,5 @@
 nav {
-  background-color: darkred;
+  background-color: rgb(7 12 104);
   width: 100%;
   height: 50px;
   padding-top: 12px;
@@ -9,10 +9,11 @@ nav {
   text-decoration: none;
   color: white;
   font: 1.3em solid;
+  font-family:'Times New Roman', Times, serif
 }
 .navlink:hover {
   color: white;
-
+  text-decoration: none;
 }
 .dropdown {
   float: right;
@@ -21,7 +22,7 @@ nav {
   margin-top: -11px;
 }
 .dropbutton {
-  background-color: darkred;
+  background-color: rgb(7 12 104);
 }
 .droplink {
   padding-left: 40px;
@@ -75,13 +76,13 @@ input[type="submit"] {
   color: #fff;
   padding: 10px 20px;
 }
-input[type="email"],
+/* input[type="email"],
 input[type="password"] {
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 50px;
   font-size: 20;
-}
+} */
 .button {
   margin-top: 20px;
   cursor: pointer;
@@ -92,7 +93,7 @@ input[type="password"] {
   width: 70%;
   border-radius: 50px;
   padding: 10px 10px;
-  margin-left: 32px;;
+  margin-left: 32px;
 }
 .title {
   font-size: 30px;
@@ -101,13 +102,13 @@ input[type="password"] {
 .labelname {
   font-size: 15px;
 }
-.cardappointment{
-    width: 35rem;
-    margin:10px;
-    padding: 10px;
+.cardappointment {
+  width: 35rem;
+  margin: 10px;
+  padding: 10px;
 }
-.cards{
-display:flex;
+.cards {
+  display: flex;
 }
 .tel {
   text-align: center;
@@ -117,35 +118,27 @@ display:flex;
 }
 .tel:hover {
   color: white;
-
 }
-.appointment{
+.appointment {
   padding: 299.5px;
   background-size: cover;
   background-image: url("https://getwallpapers.com/wallpaper/full/2/8/5/7336.jpg");
 }
-.para{
+.para {
   margin-left: -205px;
   margin-top: -229px;
+}
 
-}
-.viewtable{
-  background-color: white;
-  border-color: bisque;
-  width:750px;
- 
-}
 .table {
   background-image: linear-gradient(to right, lightpink, lightblue);
-margin-top: -256px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: -170px;
-padding: 3rem;
-width: 800px;
-color: black;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
+  margin-top: -256px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -170px;
+  padding: 3rem;
+  width: 800px;
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .input-container {
   display: flex;
@@ -154,62 +147,96 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-left: 30px;
 }
 .scheduleform {
-  background-image: linear-gradient(to right,lightblue, lightpink);
+  background-image: linear-gradient(to right, lightblue, lightpink);
   padding: 3rem;
   width: 500px;
   color: black;
   margin-top: -50px;
-margin-left: auto;
-margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  
 }
 .labelname {
   font-size: 15px;
 }
-.doctorhome{
+.doctorhome {
   background-image: url("https://wallpapercave.com/wp/wp2655079.jpg");
   padding: 299px;
   background-size: "cover";
 }
-.doctor{
+.doctor {
   background-image: url("https://www.victoriastreetmedicalgroup.com.au/wp-content/uploads/shutterstock_292534811.jpg");
-  padding: 135px;
-  background-size: "cover";
-  margin-left: -100px;
-  
+  /* padding: 108px; */
+  background-size: cover;
+padding-top: 100px;
+
+  height:596px;
+  overflow: hidden;
 }
-.viewtable{
-  background-color: white;
-  border-color: bisque;
-  width:700px;
- 
+.viewtable {
+  background-color: transparent;
+  border-color: transparent;
+  width: 1000px;
+  margin-left: -20px;
 }
 .form {
   background-image: linear-gradient(to right, lightpink, lightblue);
-margin-top: 70px;
-margin-left: auto;
-margin-right: auto;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
 
-padding: 3rem;
+  padding: 3rem;
   width: 800px;
   color: black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.pagination{
+.pagination {
   background-color: transparent;
   margin-left: 250px;
   margin-right: auto;
+  margin-top: 100px;
 }
 .patientform {
-  background-image: linear-gradient(to right, lightpink, lightblue);
-margin-top: -70px;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 115px;
-padding: 3rem;
-  width: 800px;
+  /* background-image: linear-gradient(to right, lightpink, lightblue); */
+  margin-top: -110px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 115px;
+  padding: 3rem;
+  /* width: 800px; */
   color: black;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.datatable {
+  margin-left: -70px;
+  margin-top: 50px;
+}
+
+.bookingdata {
+ 
+  margin-left: -265px;
+  margin-top:30px;
+}
+.heading{
+  margin-left: -265px;
+  margin-top:-240px;
+}
+.booking{
+  padding: 298px;
+  background-size: cover;
+  background-image: url("https://www.wallpapersun.com/wp-content/uploads/2021/10/Medical-Wallpaper-1.jpg");
+  
+}
+.tablehead{
+
+}
+.viewpatient {
+  background-image: url("https://surgerycenterwasilla.com/wp-content/uploads/2014/11/Patient-Background-White-1024x683.png");
+  /* padding: 108px; */
+  background-size: cover;
+padding-top: 100px;
+
+  height:596px;
+  overflow: hidden;
 }

@@ -39,12 +39,12 @@ export default function ViewAppointment() {
     <div className="doctor">
       {editForm === false ? (
         <div className="patientform">
-          <h1>
-            <center>
+          <h1 className="tablehead">
+            
               <b>View Appointment Here!</b>
-            </center>
+           
           </h1>
-          <br></br>
+          <br></br><br></br><br></br>
 
           <Table
             headings={headings}

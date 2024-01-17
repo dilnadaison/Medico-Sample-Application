@@ -1,7 +1,7 @@
 {
   "user": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Admin",
       "dob": "2022-05-04",
       "password": "12345",
@@ -16,7 +16,7 @@
       "phone": "9087675648",
       "password": "12345",
       "role": "Patient",
-      "id": 2
+      "id": "2"
     },
     {
       "name": "Dr.Ramesh",
@@ -25,16 +25,81 @@
       "phone": "9876543210",
       "password": "12345",
       "role": "Doctor",
-      "id": 3
+      "department": "Physcian",
+      "id": "3"
     }
   ],
   "appointment": [
     {
-      "id": 1,
-      "date": "12-06-2023",
+      "id": "1",
+      "date": "18/12/2023",
       "startTime": "10:30 AM",
       "endTime": "11:30 AM",
       "status": "Available"
+    },
+    {
+      "date": "25/12/2023",
+      "startTime": "11:00 AM",
+      "endTime": "12:00 PM",
+      "status": "Not Available",
+      "id": "2"
+    },
+    {
+      "date": "15/12/2023",
+      "startTime": "11:30 AM",
+      "endTime": "12:30 PM",
+      "status": "Available",
+      "id": "4"
+    },
+    {
+      "date": "09/01/2024",
+      "startTime": "09:00 AM",
+      "endTime": "09:30 AM",
+      "status": "Available",
+      "id": "5"
+    },
+    {
+      "date": "09/01/2024",
+      "startTime": "10:00 AM",
+      "endTime": "10:30 AM",
+      "status": "Not Available",
+      "id": "6"
+    },
+    {
+      "id": "a938",
+      "date": "12/01/2024",
+      "startTime": "11:00 AM",
+      "endTime": "12:00 PM",
+      "status": "Available"
+    },
+    {
+      "id": "b13c",
+      "date": "10/01/2024",
+      "startTime": "10:00 AM",
+      "endTime": "11:00 AM",
+      "status": "Available"
+    },
+    {
+      "id": "b13y",
+      "date": "10/01/2024",
+      "startTime": "11:00 AM",
+      "endTime": "12:00 PM",
+      "status": "Not Available"
+    }
+  ],
+  "booking": [
+    {
+      "id": "f930",
+      "patientName": "Anoop",
+      "doctorName": "Dr.Ramesh",
+      "email": "jees@gmail.com",
+      "department": "Physcian",
+      "bookingDate": "09/01/2024",
+      "phone": "9876543212",
+      "symptoms": "Ache",
+      "bookingTime": "10:00 AM - 10:30 AM",
+      "useremail": "jees@gmail.com",
+      "appointmentId": "6"
     }
   ]
 }

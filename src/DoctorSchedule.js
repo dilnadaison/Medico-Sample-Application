@@ -50,8 +50,21 @@ export default function DoctorSchedule() {
 
     setFormErrors(errors);
     if (Object.keys(errors).length === 0) {
+      const formattedDate = new Date(formData.date).toLocaleDateString('en-GB');
+      const formattedStartTime = new Date(
+        `01/01/2000 ${formData.startTime}`
+      ).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+  
+      // Format the end time to AM/PM
+      const formattedEndTime = new Date(
+        `01/01/2000 ${formData.endTime}`
+      ).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
+  
       try {
-        postData("appointment", formData).then((response) => {
+        postData("appointment",{...formData,
+        date:formattedDate,
+        startTime: formattedStartTime,
+        endTime: formattedEndTime,} ).then((response) => {
           console.log("Book added successfully");
           window.alert("Book added successfully");
           Navigate("/DoctorHome");

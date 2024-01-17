@@ -45,8 +45,8 @@ function Nav() {
           <Dropdown className="dropdown">
             <Dropdown.Toggle
               style={{
-                backgroundColor: "darkred",
-                borderColor: "darkred",
+                backgroundColor: "rgb(7 12 104)",
+                borderColor: "rgb(7 12 104)",
                 fontSize: 20,
               }}
             >
@@ -66,12 +66,12 @@ function Nav() {
           <Dropdown className="dropdown">
             <Dropdown.Toggle
               style={{
-                backgroundColor: "darkred",
-                borderColor: "darkred",
+                backgroundColor: "rgb(7 12 104)",
+                borderColor: " rgb(7 12 104)",
                 fontSize: 20,
               }}
             >
-              <b>Appointment</b>
+              Appointment
             </Dropdown.Toggle>
             <Dropdown.Menu>
               <Dropdown.Item>
@@ -106,8 +106,8 @@ function Nav() {
           <Dropdown className="dropdown">
             <Dropdown.Toggle
               style={{
-                backgroundColor: "darkred",
-                borderColor: "darkred",
+                backgroundColor: " rgb(7 12 104)",
+                borderColor: " rgb(7 12 104)",
                 fontSize: 20,
               }}
             >
@@ -121,6 +121,7 @@ function Nav() {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
+          <Link to="myappointments" className="navlink">My Appointments&emsp;</Link>
           <Link className="navlink">Contact Us&emsp;</Link>
           <Link className="navlink">Services&emsp;</Link>
           <Link className="navlink">About&emsp;</Link>
@@ -137,8 +138,8 @@ function Nav() {
           <Dropdown className="dropdown">
             <Dropdown.Toggle
               style={{
-                backgroundColor: "darkred",
-                borderColor: "darkred",
+                backgroundColor: " rgb(7 12 104)",
+                borderColor: " rgb(7 12 104)",
                 fontSize: 20,
               }}
             >

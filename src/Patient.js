@@ -40,13 +40,13 @@ export default function Patient() {
   console.log(state);
   console.log(headings);
   return (
-    <div className="doctor">
+    <div className="viewpatient">
       {editForm === false ? (
         <div className="patientform">
           <h1>
-            <center>
+          
               <b>View Patients Here!</b>
-            </center>
+         
           </h1>
           <br></br>
 
