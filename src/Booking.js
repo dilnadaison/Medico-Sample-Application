@@ -88,7 +88,8 @@ const BookingForm = () => {
         symptoms: formData.symptoms,
         bookingTime: formData.bookingTime,
         useremail:useremail,
-        appointmentId:id
+        appointmentId:id,
+        status:false
       });
     //   updateData("appointment",id,{
     //     status:"Not Available"

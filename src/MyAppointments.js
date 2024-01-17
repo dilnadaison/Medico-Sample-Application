@@ -95,6 +95,12 @@ window.location.reload();
               data={booking}
               columns={columns}
               layout={"fitColumns"}
+              options=
+              {{
+                pagination:true,
+                paginationSize:5
+              }}
+           
             />
       }
       {booking.length===0 && <h4>No Appointments for this day.</h4>}

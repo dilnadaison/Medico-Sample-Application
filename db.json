@@ -106,7 +106,8 @@
       "symptoms": "Ache",
       "bookingTime": "10:00 AM - 10:30 AM",
       "useremail": "jees@gmail.com",
-      "appointmentId": "6"
+      "appointmentId": "6",
+      "status": "Not Checked"
     },
     {
       "id": "0f0d",
@@ -119,7 +120,8 @@
       "symptoms": "Ache",
       "bookingTime": "01:00 PM - 02:00 PM",
       "useremail": "jees@gmail.com",
-      "appointmentId": "4569"
+      "appointmentId": "4569",
+      "status": false
     }
   ]
 }

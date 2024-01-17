@@ -37,10 +37,14 @@ function Appointment() {
     }
   };
   const [date, setDate] = useState(() => {
-    const currentDate = new Date();
-    const formattedDate = formatDate(currentDate);
-    return formattedDate;
+    const today = new Date();
+    const day = today.getDate();
+    const month = today.getMonth() + 1;
+    const year = today.getFullYear();
+
+    return `${year}-${month < 10 ? "0" + month : month}-${day < 10 ? "0" + day : day}`;
   });
+
   const [details, setDetails] = useState([]);
 
 
@@ -106,13 +110,14 @@ function Appointment() {
       <div className="para">
         <h3>
           Hi {user},<br></br> Make your Appointment Here!
-        </h3>
+        </h3><br></br>
         Choose your date{" "}
         <input
           type="date"
           name="date"
           value={date}
           onChange={(e) => setDate(e.target.value)}
+          min={date}
         />
       </div>
       <div className="datatable">
@@ -122,6 +127,14 @@ function Appointment() {
               data={appointment}
               columns={columns}
               layout={"fitColumns"}
+              options=
+              {{
+                pagination:true,
+                paginationSize:5
+              }}
+           
+           
+           
             />
       }
       {appointment.length===0 && <h4>No Appointments for this day.</h4>}
