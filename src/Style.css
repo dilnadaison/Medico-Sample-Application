@@ -19,12 +19,19 @@ nav {
   float: right;
   position: relative;
   display: inline-block;
+  text-decoration: none;
   margin-top: -11px;
 }
 .dropbutton {
   background-color: rgb(7 12 104);
 }
 .droplink {
+  padding-left: 40px;
+  text-decoration: none;
+  color: black;
+  font: 1.3em solid;
+}
+.droplink:hover {
   padding-left: 40px;
   text-decoration: none;
   color: black;

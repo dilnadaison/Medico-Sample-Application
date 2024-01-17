@@ -7,7 +7,7 @@ import { fetchData } from "./Services/fetchData";
 
 import { deleteData } from "./Services/deleteData";
 
-export default function ViewAppointment() {
+export default function ViewSchedules() {
   const [state, setState] = useState([]);
 
   const Navigate = useNavigate();
@@ -41,7 +41,7 @@ export default function ViewAppointment() {
         <div className="patientform">
           <h1 className="tablehead">
             
-              <b>View Appointment Here!</b>
+              <b>View Schedules Here!</b>
            
           </h1>
           <br></br><br></br><br></br>

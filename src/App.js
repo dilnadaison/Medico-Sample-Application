@@ -9,11 +9,14 @@ import Appointment from './Appointment';
 import DoctorHome from './DoctorHome';
 import DoctorSchedule from './DoctorSchedule';
 import Patient from './Patient';
-import ViewAppointment from './ViewAppointment';
+import ViewAppointment from './ViewSchedules';
 import BookingForm from './Booking';
 import { ToastContainer } from 'react-toastify';
 import MyAppointment from './MyAppointments';
 import Protected from './Components/Protected';
+import ViewSchedules from './ViewSchedules';
+import TodayAppointment from './TodayAppointment';
+import AllAppointment from './AllAppointments';
 function App() {
   return (
     <div className="App">
@@ -31,7 +34,9 @@ function App() {
 <Route path="/myappointments" element={<MyAppointment/>}/>
 <Route path="/booking/:id" element={<BookingForm/>}/>
 <Route path="Patient" element={<Patient/>}/>
-<Route path="viewappointment" element={<ViewAppointment/>}/>
+<Route path="viewschedules" element={<ViewSchedules/>}/>
+<Route path="viewtodayappointment" element={<TodayAppointment/>}/>
+<Route path="viewallappointments" element={<AllAppointment/>}/>
 </Route>
 </Routes>
 <ToastContainer/>

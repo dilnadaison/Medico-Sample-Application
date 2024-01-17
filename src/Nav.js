@@ -68,20 +68,45 @@ function Nav() {
               style={{
                 backgroundColor: "rgb(7 12 104)",
                 borderColor: " rgb(7 12 104)",
-                fontSize: 20,
+                fontSize: 21.5,
+                fontFamily:"serif"
               }}
             >
-              Appointment
+              Appointments
+            </Dropdown.Toggle>
+            <Dropdown.Menu>
+              <Dropdown.Item>
+                <Link to="viewtodayappointment" className="droplink">
+                  Today's Appointments&emsp;
+                </Link>
+              </Dropdown.Item>
+              <Dropdown.Item>
+                <Link to="viewallappointments" className="droplink">
+                 All Appointments&emsp;
+                </Link>
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
+          <Dropdown className="dropdown">
+            <Dropdown.Toggle
+              style={{
+                backgroundColor: "rgb(7 12 104)",
+                borderColor: " rgb(7 12 104)",
+                fontSize: 21.5,
+                fontFamily:"serif"
+              }}
+            >
+              Schedule
             </Dropdown.Toggle>
             <Dropdown.Menu>
               <Dropdown.Item>
                 <Link to="doctorschedule" className="droplink">
-                  Add Appointment&emsp;
+                  Add Schedule&emsp;
                 </Link>
               </Dropdown.Item>
               <Dropdown.Item>
-                <Link to="viewappointment" className="droplink">
-                  View Appointment&emsp;
+                <Link to="viewschedules" className="droplink">
+                  View Schedule&emsp;
                 </Link>
               </Dropdown.Item>
             </Dropdown.Menu>
